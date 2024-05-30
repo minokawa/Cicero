@@ -1,0 +1,62 @@
+\documentclass[
+onehalfspacing,
+14pt
+]{Assignment}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{textcomp}
+\usepackage{tabularray}
+\usepackage[style=english]{csquotes}
+\usepackage{pdfpages}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+
+\geometry{
+    paper=a4paper,
+    outer=3.8cm,
+    top=1cm,
+    bottom=1cm,
+    headheight=1.5cm
+}
+
+\reporttitle{Title of assigment}
+\reportsupervisor{Name of Profesor}
+\author{Student Name}
+\university{Jose Rizal University}
+\subject{Subject Title and Code}
+\begin{document}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[R]{\textbf{\ttitle}}
+\fancyhead[L]{\authorname}
+\fancyfoot[L]{\supname}
+\fancyfoot[R]{\subjectname}
+
+The Supreme Court here laid out the elements for the illegal sale of drugs\footnote{Automatically generated footnote markers work fine!}. To secure a conviction for illegal sale of dangerous drugs, the prosecution must establish the following elements:
+
+\begin{enumerate}
+  \item  The identity of the buyer and the seller,
+  \item The object of the sale and its consideration; and
+  \item  The delivery of the thing sold and the payment thereof.
+\end{enumerate}
+
+\lipsum[1]
+
+\begin{displayquote}[{People v. Neil Dejos Y Pinili, G.R. No.  237423, (2020)}]
+It is beyond dispute that the illicit distribution of drugs is one of the most serious problems of our society. The stern penalties prescribed by the law are intended to deter the aggravation of the problem which has already prejudiced the lives and future of our citizens. The persons who peddle prohibited drugs are evil merchants of misery and death. Indeed, the strong arm of the law must never weaken against the onslaughts of this terrible affliction.
+\end{displayquote}
+
+\lipsum[2]
+
+\section*{Issues}
+
+\lipsum[3]
+
+\section*{Fallo}
+\lipsum[4]
+
+
+\section*{Ratio}
+\lipsum[5]
+
+\end{document}
